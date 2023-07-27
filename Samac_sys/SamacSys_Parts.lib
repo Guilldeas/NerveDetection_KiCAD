@@ -1,0 +1,137 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL074CN
+#/182328/1117453/2.50/14/3/Integrated Circuit
+DEF TL074CN IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TL074CN" 950 200 50 H V L CNN
+F2 "DIP794W53P254L1930H508Q14N" 950 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1977553" 950 0 50 H I L CNN
+F4 "Quad Low-Noise JFET-Input General-Purpose Operational Amplifier" 950 -100 50 H I L CNN "Description"
+F5 "5.08" 950 -200 50 H I L CNN "Height"
+F6 "1977553" 950 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/1977553" 950 -400 50 H I L CNN "RS Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TL074CN" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1OUT 1 0 0 200 R 50 50 0 0 P
+X 1IN- 2 0 -100 200 R 50 50 0 0 P
+X 1IN+ 3 0 -200 200 R 50 50 0 0 P
+X VCC+ 4 0 -300 200 R 50 50 0 0 P
+X 2IN+ 5 0 -400 200 R 50 50 0 0 P
+X 2IN- 6 0 -500 200 R 50 50 0 0 P
+X 2OUT 7 0 -600 200 R 50 50 0 0 P
+X 4OUT 14 1100 0 200 L 50 50 0 0 P
+X 4IN- 13 1100 -100 200 L 50 50 0 0 P
+X 4IN+ 12 1100 -200 200 L 50 50 0 0 P
+X VCC- 11 1100 -300 200 L 50 50 0 0 P
+X 3IN+ 10 1100 -400 200 L 50 50 0 0 P
+X 3IN- 9 1100 -500 200 L 50 50 0 0 P
+X 3OUT 8 1100 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RA73F2A10KBTDF
+#/16678139/1117453/2.50/2/3/Resistor
+DEF RA73F2A10KBTDF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RA73F2A10KBTDF" 550 150 50 H V L CNN
+F2 "RESC2012X58N" 550 50 50 H I L CNN
+F3 "https://www.mouser.in/datasheet/2/418/8/ENG_DS_1773270_3_A-2899722.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD RA73F 2A 10K 0.1% 1K RL" 550 -150 50 H I L CNN "Description"
+F5 "0.58" 550 -250 50 H I L CNN "Height"
+F6 "279-RA73F2A10KBTDF" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/RA73F2A10KBTDF?qs=Li%252BoUPsLEntqleNaLrqoUg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "RA73F2A10KBTDF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3266W-1-502LF
+#/166435/1117453/2.50/3/4/Resistor
+DEF 3266W-1-502LF R 0 30 Y Y 1 F N
+F0 "R" 950 300 50 H V L CNN
+F1 "3266W-1-502LF" 950 200 50 H V L CNN
+F2 "3266W" 950 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/5219287P" 950 0 50 H I L CNN
+F4 "3266W top adj cermet trimmer,5K,6mm Bourns 3266W Series 12-Turn Through Hole Cermet Trimmer Resistor with Pin Terminations, 5k +/-10% 1/4W +/-100ppm/C" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "5219287P" 950 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/5219287P" 950 -400 50 H I L CNN "RS Price/Stock"
+F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3266W-1-502LF" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+F10 "70153883" 950 -700 50 H I L CNN "Allied_Number"
+DRAW
+X CCW 1 1100 0 200 L 50 50 0 0 P
+X WIPER 2 0 0 200 R 50 50 0 0 P
+X CW 3 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL084CN
+#/182342/1117453/2.50/14/3/Integrated Circuit
+DEF TL084CN IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "TL084CN" 1050 500 50 H V L CNN
+F2 "DIP794W53P254L1930H508Q14N" 1050 400 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/0304201" 1050 300 50 H I L CNN
+F4 "Quad High Slew Rate JFET-Input Operational Amplifier" 1050 200 50 H I L CNN "Description"
+F5 "5.08" 1050 100 50 H I L CNN "Height"
+F6 "0304201" 1050 0 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/0304201" 1050 -100 50 H I L CNN "RS Price/Stock"
+F8 "Texas Instruments" 1050 -200 50 H I L CNN "Manufacturer_Name"
+F9 "TL084CN" 1050 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1OUT 1 1200 0 200 L 50 50 0 0 O
+X 1IN- 2 0 -100 200 R 50 50 0 0 I
+X 1IN+ 3 0 0 200 R 50 50 0 0 I
+X VCC+ 4 600 600 200 D 50 50 0 0 W
+X 2IN+ 5 0 -300 200 R 50 50 0 0 I
+X 2IN- 6 0 -400 200 R 50 50 0 0 I
+X 2OUT 7 1200 -300 200 L 50 50 0 0 O
+X 3OUT 8 1200 -600 200 L 50 50 0 0 O
+X 3IN- 9 0 -700 200 R 50 50 0 0 I
+X 3IN+ 10 0 -600 200 R 50 50 0 0 I
+X VCC- 11 600 -1600 200 U 50 50 0 0 W
+X 4IN+ 12 0 -900 200 R 50 50 0 0 I
+X 4IN- 13 0 -1000 200 R 50 50 0 0 I
+X 4OUT 14 1200 -900 200 L 50 50 0 0 O
+P 5 0 1 6 200 400 1000 400 1000 -1400 200 -1400 200 400 N
+ENDDRAW
+ENDDEF
+#
+#End Library
