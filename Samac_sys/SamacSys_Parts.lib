@@ -28,51 +28,19 @@ P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
 ENDDRAW
 ENDDEF
 #
-#SamacSys ECAD Model TL074CN
-#/182328/1117453/2.50/14/3/Integrated Circuit
-DEF TL074CN IC 0 30 Y Y 1 F N
-F0 "IC" 950 300 50 H V L CNN
-F1 "TL074CN" 950 200 50 H V L CNN
-F2 "DIP794W53P254L1930H508Q14N" 950 100 50 H I L CNN
-F3 "http://uk.rs-online.com/web/p/products/1977553" 950 0 50 H I L CNN
-F4 "Quad Low-Noise JFET-Input General-Purpose Operational Amplifier" 950 -100 50 H I L CNN "Description"
-F5 "5.08" 950 -200 50 H I L CNN "Height"
-F6 "1977553" 950 -300 50 H I L CNN "RS Part Number"
-F7 "http://uk.rs-online.com/web/p/products/1977553" 950 -400 50 H I L CNN "RS Price/Stock"
-F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
-F9 "TL074CN" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-X 1OUT 1 0 0 200 R 50 50 0 0 P
-X 1IN- 2 0 -100 200 R 50 50 0 0 P
-X 1IN+ 3 0 -200 200 R 50 50 0 0 P
-X VCC+ 4 0 -300 200 R 50 50 0 0 P
-X 2IN+ 5 0 -400 200 R 50 50 0 0 P
-X 2IN- 6 0 -500 200 R 50 50 0 0 P
-X 2OUT 7 0 -600 200 R 50 50 0 0 P
-X 4OUT 14 1100 0 200 L 50 50 0 0 P
-X 4IN- 13 1100 -100 200 L 50 50 0 0 P
-X 4IN+ 12 1100 -200 200 L 50 50 0 0 P
-X VCC- 11 1100 -300 200 L 50 50 0 0 P
-X 3IN+ 10 1100 -400 200 L 50 50 0 0 P
-X 3IN- 9 1100 -500 200 L 50 50 0 0 P
-X 3OUT 8 1100 -600 200 L 50 50 0 0 P
-P 5 0 1 6 200 100 900 100 900 -700 200 -700 200 100 N
-ENDDRAW
-ENDDEF
-#
-#SamacSys ECAD Model RA73F2A10KBTDF
-#/16678139/1117453/2.50/2/3/Resistor
-DEF RA73F2A10KBTDF R 0 30 Y Y 1 F N
+#SamacSys ECAD Model ERJ-1TNF1501U
+#/641727/1117453/2.50/2/2/Resistor
+DEF ERJ-1TNF1501U R 0 30 Y Y 1 F N
 F0 "R" 550 250 50 H V L CNN
-F1 "RA73F2A10KBTDF" 550 150 50 H V L CNN
-F2 "RESC2012X58N" 550 50 50 H I L CNN
-F3 "https://www.mouser.in/datasheet/2/418/8/ENG_DS_1773270_3_A-2899722.pdf" 550 -50 50 H I L CNN
-F4 "Thin Film Resistors - SMD RA73F 2A 10K 0.1% 1K RL" 550 -150 50 H I L CNN "Description"
-F5 "0.58" 550 -250 50 H I L CNN "Height"
-F6 "279-RA73F2A10KBTDF" 550 -350 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/RA73F2A10KBTDF?qs=Li%252BoUPsLEntqleNaLrqoUg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
-F8 "TE Connectivity" 550 -550 50 H I L CNN "Manufacturer_Name"
-F9 "RA73F2A10KBTDF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+F1 "ERJ-1TNF1501U" 550 150 50 H V L CNN
+F2 "ERJ1T_(2512)" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ERJ-1TNF1501U.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Chip Resistor, 2512, 1W" 550 -150 50 H I L CNN "Description"
+F5 "0.7" 550 -250 50 H I L CNN "Height"
+F6 "667-ERJ-1TNF1501U" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "http://www.mouser.com/Search/ProductDetail.aspx?qs=KH2o3k57USjkLktPbCu2Jw%3d%3d" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERJ-1TNF1501U" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
 X ~ 1 0 0 200 R 50 50 0 0 P
 X ~ 2 700 0 200 L 50 50 0 0 P
@@ -80,57 +48,23 @@ P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
 ENDDRAW
 ENDDEF
 #
-#SamacSys ECAD Model 3266W-1-502LF
-#/166435/1117453/2.50/3/4/Resistor
-DEF 3266W-1-502LF R 0 30 Y Y 1 F N
-F0 "R" 950 300 50 H V L CNN
-F1 "3266W-1-502LF" 950 200 50 H V L CNN
-F2 "3266W" 950 100 50 H I L CNN
-F3 "http://uk.rs-online.com/web/p/products/5219287P" 950 0 50 H I L CNN
-F4 "3266W top adj cermet trimmer,5K,6mm Bourns 3266W Series 12-Turn Through Hole Cermet Trimmer Resistor with Pin Terminations, 5k +/-10% 1/4W +/-100ppm/C" 950 -100 50 H I L CNN "Description"
-F5 "" 950 -200 50 H I L CNN "Height"
-F6 "5219287P" 950 -300 50 H I L CNN "RS Part Number"
-F7 "http://uk.rs-online.com/web/p/products/5219287P" 950 -400 50 H I L CNN "RS Price/Stock"
-F8 "Bourns" 950 -500 50 H I L CNN "Manufacturer_Name"
-F9 "3266W-1-502LF" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
-F10 "70153883" 950 -700 50 H I L CNN "Allied_Number"
+#SamacSys ECAD Model RR0816P-102-D
+#/600951/1117453/2.50/2/0/Resistor
+DEF RR0816P-102-D R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RR0816P-102-D" 550 150 50 H V L CNN
+F2 "RESC1608X60N" 550 50 50 H I L CNN
+F3 "" 550 -50 50 H I L CNN
+F4 "RESISTOR, 0603 1 KOhm +/- 0.5% 0.0625 W" 550 -150 50 H I L CNN "Description"
+F5 "" 550 -250 50 H I L CNN "Height"
+F6 "754-RR0816P-102D" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Susumu/RR0816P-102-D?qs=nCAm%252BcMdy9z3RMAbuyU2rg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Susumu" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "RR0816P-102-D" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-X CCW 1 1100 0 200 L 50 50 0 0 P
-X WIPER 2 0 0 200 R 50 50 0 0 P
-X CW 3 1100 -100 200 L 50 50 0 0 P
-P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
-ENDDRAW
-ENDDEF
-#
-#SamacSys ECAD Model TL084CN
-#/182342/1117453/2.50/14/3/Integrated Circuit
-DEF TL084CN IC 0 30 Y Y 1 F N
-F0 "IC" 1050 600 50 H V L CNN
-F1 "TL084CN" 1050 500 50 H V L CNN
-F2 "DIP794W53P254L1930H508Q14N" 1050 400 50 H I L CNN
-F3 "http://uk.rs-online.com/web/p/products/0304201" 1050 300 50 H I L CNN
-F4 "Quad High Slew Rate JFET-Input Operational Amplifier" 1050 200 50 H I L CNN "Description"
-F5 "5.08" 1050 100 50 H I L CNN "Height"
-F6 "0304201" 1050 0 50 H I L CNN "RS Part Number"
-F7 "http://uk.rs-online.com/web/p/products/0304201" 1050 -100 50 H I L CNN "RS Price/Stock"
-F8 "Texas Instruments" 1050 -200 50 H I L CNN "Manufacturer_Name"
-F9 "TL084CN" 1050 -300 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-X 1OUT 1 1200 0 200 L 50 50 0 0 O
-X 1IN- 2 0 -100 200 R 50 50 0 0 I
-X 1IN+ 3 0 0 200 R 50 50 0 0 I
-X VCC+ 4 600 600 200 D 50 50 0 0 W
-X 2IN+ 5 0 -300 200 R 50 50 0 0 I
-X 2IN- 6 0 -400 200 R 50 50 0 0 I
-X 2OUT 7 1200 -300 200 L 50 50 0 0 O
-X 3OUT 8 1200 -600 200 L 50 50 0 0 O
-X 3IN- 9 0 -700 200 R 50 50 0 0 I
-X 3IN+ 10 0 -600 200 R 50 50 0 0 I
-X VCC- 11 600 -1600 200 U 50 50 0 0 W
-X 4IN+ 12 0 -900 200 R 50 50 0 0 I
-X 4IN- 13 0 -1000 200 R 50 50 0 0 I
-X 4OUT 14 1200 -900 200 L 50 50 0 0 O
-P 5 0 1 6 200 400 1000 400 1000 -1400 200 -1400 200 400 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
 ENDDRAW
 ENDDEF
 #

@@ -6,28 +6,10 @@ K
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
-$CMP TL074CN
-D Quad Low-Noise JFET-Input General-Purpose Operational Amplifier
+$CMP ERJ-1TNF1501U
+D Thick Film Chip Resistor, 2512, 1W
 K
-F http://uk.rs-online.com/web/p/products/1977553
-$ENDCMP
-#
-$CMP RA73F2A10KBTDF
-D Thin Film Resistors - SMD RA73F 2A 10K 0.1% 1K RL
-K
-F https://www.mouser.in/datasheet/2/418/8/ENG_DS_1773270_3_A-2899722.pdf
-$ENDCMP
-#
-$CMP 3266W-1-502LF
-D 3266W top adj cermet trimmer,5K,6mm Bourns 3266W Series 12-Turn Through Hole Cermet Trimmer Resistor with Pin Terminations, 5k +/-10% 1/4W +/-100ppm/C
-K
-F http://uk.rs-online.com/web/p/products/5219287P
-$ENDCMP
-#
-$CMP TL084CN
-D Quad High Slew Rate JFET-Input Operational Amplifier
-K
-F http://uk.rs-online.com/web/p/products/0304201
+F https://componentsearchengine.com/Datasheets/1/ERJ-1TNF1501U.pdf
 $ENDCMP
 #
 #End Doc Library
