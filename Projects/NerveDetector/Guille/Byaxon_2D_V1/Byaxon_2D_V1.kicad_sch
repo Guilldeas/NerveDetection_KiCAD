@@ -4140,7 +4140,7 @@
   (symbol (lib_id "Device:R") (at 92.71 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cff09ac-a6cb-4d16-a38d-61c22f68cd10)
-    (property "Reference" "R10" (at 90.17 110.474 0)
+    (property "Reference" "R10" (at 89.535 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 90.17 112.395 0)
