@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.5*%
+%TF.CreationDate,2023-07-31T13:29:29+02:00*%
+%TF.ProjectId,Byaxon_2D_V1,42796178-6f6e-45f3-9244-5f56312e6b69,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.5) date 2023-07-31 13:29:29*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X32500000Y-38250000D02*
+X152800000Y-38250000D01*
+X152800000Y-128250000D01*
+X32500000Y-128250000D01*
+X32500000Y-38250000D01*
+M02*
