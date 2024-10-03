@@ -1,3 +1,3 @@
 ### Content
 
-This repo stores files for the gradiometer PCB used in the Nerve Detection project.
+This repo stores KiCAD files for the development of a low noise preamplifier employing the gradiometer technique.
